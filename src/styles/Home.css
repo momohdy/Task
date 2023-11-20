@@ -1,0 +1,17 @@
+.back{
+    border: 2px solid var(--gray);
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .saveAndCopy , .next{
+    background-color: rgb(9, 95, 153);
+    border: 2px solid var(--blue);
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+  }
+  .next a{
+    text-decoration: none;
+    color: white;
+  }

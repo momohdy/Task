@@ -1,0 +1,13 @@
+.create , .manage , .copyFromBtn {
+    border: 2px solid var(--blue);
+    border-radius: 4px;
+    font-weight: bold;
+    color: skyblue;
+  }
+  thead tr th{
+    background-color: var(--gray) !important;
+  }
+  
+  .icon{
+    color: var(--blue);
+  }
