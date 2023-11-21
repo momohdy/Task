@@ -5,7 +5,7 @@ NOTES :
 
 1) Disable button that doesn't have logic
  
-Like => ( Copy From , Back , Save & Copy ) 
+Like => ( Copy From , Back , Save & Copy , Manage ) 
 
 2) Preceding Document input field set to readonly 
 
