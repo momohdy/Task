@@ -61,11 +61,10 @@ function Attachment() {
   };
 
   return (
-    <div className="container">
-    
+    <div className="container mt-5">
       <Header />
 
-      <div class="popup modal" id="myModal">
+      <div class="popup modal fade-in-out" id="myModal">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -167,7 +166,7 @@ function Attachment() {
                     <input
                       type="file"
                       className="form-control"
-                      multiple = ""
+                      multiple=""
                       data-height="500"
                       onChange={(e) =>
                         handleDocumentInputChange(e.target.files[0])

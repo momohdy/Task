@@ -7,7 +7,7 @@ function Home() {
     <div className="container mt-5">
       <div className="d-flex p-3">
         <h3 class="fw-bold">Header Details</h3>
-        <button type="button" class="copyFromBtn btn btn-light ms-auto ">
+        <button type="button" class="copyFromBtn btn btn-light ms-auto " disabled>
           Copy From
         </button>
       </div>

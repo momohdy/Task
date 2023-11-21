@@ -12,7 +12,7 @@
 .container{
   border: 2px solid var(--gray);
   border-radius: 6px;
-  margin-top: 25rem;
+  /* margin-top: 25rem; */
 }
 
 

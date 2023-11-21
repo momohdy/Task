@@ -13,6 +13,18 @@ thead tr th {
   color: var(--blue);
 }
 
+/* smoothy popup */
+.fade-in-out {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup.modal.show.fade-in-out {
+  opacity: 1;
+}
+/*  */
+
+
 
 /* Drag & Drop section */
 .files input {
