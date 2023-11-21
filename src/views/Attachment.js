@@ -160,13 +160,15 @@ function Attachment() {
                   </div>
                 )}
                 {attachmentType === "Document" && (
-                  <div className="mb-3">
+                  <div className="form-group files color mb-3 ">
                     <label className="form-label required">
                       Upload Document
                     </label>
                     <input
                       type="file"
                       className="form-control"
+                      multiple = ""
+                      data-height="500"
                       onChange={(e) =>
                         handleDocumentInputChange(e.target.files[0])
                       }

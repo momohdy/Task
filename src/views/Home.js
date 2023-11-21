@@ -106,7 +106,7 @@ function Home() {
           Save & Copy
         </button>
         <span className="next text-center col-3 p-2">
-          <Link to={{ pathname: `/attachment` }}>Next</Link>
+          <Link to={{ pathname: `/Task/attachment` }}>Next</Link>
         </span>
       </div>
     </div>
